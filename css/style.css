@@ -2,11 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
    
 }
-
-
 
 body{
    display: flex;
@@ -29,8 +27,6 @@ body{
     border-radius: 0.75rem;
     overflow: hidden;
     position: relative;
-   
-    
 }
 .container h2{
     display: flex;
@@ -42,7 +38,7 @@ body{
     background-color:	#075e54;
     box-shadow: 0 0 10px black;
     padding-bottom: 5px;
-    }
+}
 
 .container .input{
     display: flex;
@@ -73,8 +69,6 @@ body{
 #myinput:hover{
     border: 3px solid seagreen;
     outline: none;
-    
-  
 }
 .container .input button{
     font-size: 25px;
@@ -82,10 +76,8 @@ body{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0 0 2px black;
-cursor: pointer;
-border-radius: 90px;
-
-    
+    cursor: pointer;
+    border-radius: 90px;   
 }
 
 .input button:focus{
