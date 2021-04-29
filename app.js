@@ -1,8 +1,4 @@
-
-  
-  function init(){
-  
-  
+function init(){
   var firebaseConfig = {
     apiKey: apiKey,
     authDomain: authDomain,
@@ -35,8 +31,8 @@
     messages.scroll({behavior:"smooth",top:999999999999999});
 
     });
-} 
-function chatstart (){
+}
+function chatstart(){
     myname = nameInput.value;
     console.log('myname',myname)
     if(myname.length > 0){
@@ -61,14 +57,10 @@ function messageSend(){
             sender:myname,
             message:msg,
             time:firebase.database.ServerValue.TIMESTAMP
-    
-  
 });
   
 }
-var msg= document.getElementById("myinput").value="";
-}
-
+var msg= document.getElementById("myinput").value="";}
 
 var login=document.querySelector(".login");
 var nameInput= document.getElementById("myname");
